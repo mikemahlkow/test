@@ -1,0 +1,19 @@
+Git if you work alone:
+Files that start with period are generally hidden from the user
+
+Initializing a repository: git init
+
+What happens when you initialize a repository? Why do you need to do it?
+A new repository gets created that creates a hidden folder in which previous commits
+are stored without the user being able to see them. You need to do it in order
+to be able to use Git properly
+
+Files are in the working directory at first, not in git repository.
+
+Working directory -> staging area -> Git repository
+git status shows us what is in the staging area, working directory and git repository
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+It is only a storage opportunity. It allows logical changes of the overall programm to be made.
+If every file that is added would lead to a commit immediately it would not be possible to do this
