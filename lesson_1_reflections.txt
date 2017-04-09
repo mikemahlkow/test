@@ -1,0 +1,53 @@
+Version Control:
+Git is a version control system
+Github a collaboration platform
+
+Windows -Y compare files with "FC"
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing different versions of files helps me to spot errors more easily, since
+one does not need to check the whole code base for errors but only the changes
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+I would spend less time looking for mistakes and could easily try different things
+with a working basic version
+
+Commits are the basic checkpoints of Git
+
+Using git to see history
+
+One Commit per Logical Change Solution
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The advantage of manual saving is that saves can be done at logical points so that
+versions can be compared more easily
+The disadvantage is that one could simply forget so save the files
+
+Commits with multiple Files: Repository
+
+Why do you think some version control systems, like Git, allow saving multiple files
+in one commit, while others, like Google Docs, treat each file separately?
+When coding, saving files that belong together is important for the functionality
+of the program one is writing
+
+Git clone lets you duplicate whole repositories to your own pc
+
+How can you use the commands git log and git diff to view the history of files?
+Git log enables me to see all the commits of a repository.
+Git diff can show me changes between two specific commits
+
+Checking out old versions of code: Git log, then git checkout with appropriate id
+
+
+How might using version control make you more confident to make changes that could break something?
+It would give me the courage to try stuff, because I could always go back to the old version
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it to be more efficient, find bugs easier and be able to cooperate
+with other coders
