@@ -1,0 +1,4 @@
+Github:
+Sync local repository with Github
+Empty repository in github
+remote repository: "remote"

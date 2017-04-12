@@ -17,3 +17,51 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 It is only a storage opportunity. It allows logical changes of the overall programm to be made.
 If every file that is added would lead to a commit immediately it would not be possible to do this
+
+git diff with no arguments shows changes I made that have not been added to the
+staging area
+git diff --staged compares staging area with most recent commit
+git reset --hard: removes all changes from working directory and staging area
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can change code in different files and add them to the staging area
+so that I can commit them when I have made a logical change
+
+Branches: You can checkout branches. Combine two commits: Merging
+
+Creating, checking out and committing to branches:
+git branch -> Shows you the existing branches
+git branch newbranchname -> creates a new branch with the given name
+git checkout branchname -> switches to given branch
+
+What are some situations when branches would be helpful
+in keeping your history organized? How would branches help?
+They could store different versions of my program or different experiments
+
+Master branch -> Production branch that should always work
+Rest branch -> Other developments
+
+Git log --graph --oneline
+git checkout -b newbranchname (creates new branch for changes in commits that
+are not the most recent)
+
+How do the diagrams help you visualize the branch structure?
+They help me to separate different branches and also give me an understanding
+of the parent-child relationship between different commits
+
+git show -> shows only changes that were made by a commit and its parent
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+The result is that all the changes of the commits of both branches are merged
+together in one branch and commit. The diagram is important, since it shows that
+all the commits are still reachable and there is still only one branch name
+
+Merge conflict:
+If changes were made to the same area of a file, you need to resolve the conflict
+first
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic mergin saves a lot of time, manual merging leaves the code there that
+is really needed for the project to work properly
